@@ -14,6 +14,7 @@ const App = () => {
 
                 <Routes>
                     <Route path='/' element={<Dec />} />
+                    <Route path='/Bin2Dec' element={<Dec />} />
                     <Route path='/about-binary' element={<AboutBinary />} />
                     <Route path='/about-decimal' element={<AboutDecimal />} />
                 </Routes>
